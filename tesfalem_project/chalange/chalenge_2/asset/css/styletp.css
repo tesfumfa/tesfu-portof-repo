@@ -1,0 +1,700 @@
+:root {
+    --light-blue: #91f9fd;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HEADER STYLES START */ 
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--light-blue);
+    justify-content: space-around;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(../images/mountains-landscape.jpg);
+    z-index: 9999;
+    width: auto;
+}
+
+header {
+    position: sticky; top: 0;
+}
+
+header .nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0;
+}
+
+header .nav ul li a:hover {
+    color: black;
+    background-color: chartreuse;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+
+header .nav ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    padding: 5px 10px;
+    font-size: 2.0vw;
+    text-decoration: none;
+}
+
+header .nav ul li a span {
+    font-weight: 900;
+    font-size: 4.0vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    align-items: center;
+}
+
+header .nav ul li a span:hover {
+    border-radius: 0 0 0 0;
+}
+/* HEADER STYLES END */ 
+
+
+
+
+
+/* HERO STYLES START */ 
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(../images/mountains-landscape.jpg);
+}
+
+.profile-pic-circle {
+    box-shadow: thistle;
+    display: block;
+    width: 40%;
+}
+
+/* HERO STYLES END */ 
+
+/* ABOUT STYLES START */
+
+.about {
+    background-color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about p {
+    color: whitesmoke;
+    font-size: 2.00vw;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+
+/* ABOUT STYLES END */
+
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6.0vw;
+    font-style: italic;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    order: 0;
+}
+
+
+
+
+/* PORTFOLIO STYLES START */ 
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.title-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6.0vw;
+    font-style: italic;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    order: 0;
+}
+
+.top-project-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.top-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 60%;
+    
+}
+
+.project-1 {
+    width: 100%; 
+    margin-bottom: 0;
+}
+
+.top-card-text {
+    color: gold;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 4.00vw;
+}
+
+
+.top-card:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+
+.bottom-project-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 30px 10px 10px 10px;
+    justify-content: center;
+    width: 80%;
+    
+}
+
+.lower-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 60%;
+    margin: 20px;
+    flex: 1;
+}
+
+.project-2 {
+    width: 100%;
+}
+
+.lower-card-text {
+    color: gold;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 1.80vw;
+}
+
+.lower-card:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+
+/* PORTFOLIO STYLES END */ 
+
+
+
+
+
+
+
+/* RESUME STYLES START */ 
+.resume-contact-background {
+    background-image: url(../images/stars.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.title-resume {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6.0vw;
+    font-style: italic;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    order: 0;
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.resume-content {
+    width: 40%;
+    color: black;
+    background-color: wheat;
+    text-align: left;
+    box-shadow: 6px 6px 2px 1px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 15px; 
+    padding: 20px;
+    margin: 10px;
+}
+.resume-content h2 {
+    text-align: center;
+}
+
+.resume-content p span {
+    font-style: italic;
+}
+
+/* RESUME STYLES END */ 
+
+
+
+
+
+/* CONTACT STYLES START */ 
+
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.title-contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6.0vw;
+    font-style: italic;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    order: 0;
+}
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    flex: 1;
+}
+
+.contact-info,
+.contact-form {
+    display: block;
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: left;
+    box-shadow: 6px 6px 2px 1px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 15px; 
+    margin: 0 40px;
+    padding: 10px 20px;
+}
+
+.contact-form {
+    order: 3;
+}
+
+.contact-info {
+    align-items: baseline;
+    order: 2;
+}
+
+.contact-info h3,
+.contact-form h3 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    padding: 7px;
+    font-size: 14px;
+    color: gray;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border: 1px solid black;
+}
+
+.contact-form button {
+    width: 100%;
+    border: 1px gray solid;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: whitesmoke;
+    background: darkblue;
+}
+
+/* CONTACT STYLES END */ 
+
+/* FOOTER STYLES START */ 
+
+footer {
+    background-color: yellowgreen;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+    padding: 30px 30px;
+}
+
+footer div {
+    width:50%;
+} 
+
+footer .logo {
+    width: 10%;
+}
+
+footer div h4 {
+    color: black;
+    font-size: 3.00vw;
+    margin: 0;
+    text-align: right;
+}
+
+footer div p {
+    color: black;
+    font-size: 1.55vw;
+    line-height: 1.7;
+    text-align: right;
+}
+
+section {
+    padding: 60px;
+}
+
+/* FOOTER STYLES END */ 
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .profile-pic-circle {
+        width: 60%;
+    }
+
+    .top-card {
+        width: 70%;
+    }
+
+    .lower-card {
+        width: 40%;
+    }
+
+}   
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    
+    .top-card {
+        width: 80%;
+    }
+    
+    .lower-card {
+        margin: 20px 0;
+        width: 40%;
+    }
+    .bottom-project-container {
+        margin: 20px 20px;
+        justify-content: space-evenly;
+    }
+
+    .project-2 {
+        width: 100%;
+    }
+
+    .top-card-text {
+        font-size: 3.00vw;
+    }
+
+    .lower-card-text {
+        font-size: 2.0vw;
+    }
+
+    .contact-container {
+        width: 80%;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header nav {
+        width: 100%;
+        background-color: gold;
+    }
+
+    header nav ul li a {
+        font-size: xx-large;
+    }
+    
+    .about p {
+        color: whitesmoke;
+        font-size: 3.00vw;
+        text-align: center;
+        line-height: 1.7;
+    }
+
+    .top-card {
+        width: 80%;
+    }
+    
+    .lower-card {
+        width: 60%
+    }
+
+    .profile-pic-circle {
+        width: 80%;
+    }
+    
+    .top-project-container {
+    width: 100%;
+    align-items: space-evenly;
+    }
+
+    .project-1 {
+        width: 100%;
+    }
+    
+    .bottom-project-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .top-card-text {
+        font-size: 4.0vw;
+    }
+
+    .lower-card-text {
+        font-size: 2.00vw;
+    }
+
+
+    .resume-content {
+        width: 75%;
+        color: black;
+        background-color: wheat;
+        text-align: center;
+        box-shadow: 6px 6px 2px 1px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        border-radius: 15px; 
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        flex-wrap: nowrap;
+    }
+
+    .contact-info {
+        width: 100%;
+        
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 400px) {
+    header nav {
+        width: 100%;
+        background-color: gold;
+    }
+
+    header .nav ul a {
+        margin: 5px 0;
+        font-size: 5.00vw;
+    }
+
+    header .nav ul li a span {
+        font: large;
+    }
+
+    .about p {
+        color: whitesmoke;
+        font-size: 3.00vw;
+        text-align: center;
+        line-height: 1.7;
+    }
+    
+    .profile-pic-circle {
+        width: 75%;
+    }
+    
+    .portfolio {
+        padding: 0;
+        margin: 0;
+    }
+
+    
+    .bottom-project-container {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .top-card {
+        width: 80%;
+    }
+
+    .lower-card {
+        justify-content: space-between;
+    }
+
+    .project-2 {
+        width: 100%;
+    }
+    
+    .lower-card-text,
+    .top-card-text {
+        font-size: 4.0vw;
+    }
+    
+    .resume {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .resume-container {
+        width: 100%;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 100%;
+        
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+© 2021 GitHub, Inc.
